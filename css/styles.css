@@ -1,0 +1,118 @@
+:root{
+    --color1: #000000;
+    --color2: #fff;
+    --color3: #ff4900;
+    --font1: 'Poppins-Bold';
+    --font2: 'Poppins-light';
+    --font3: 'Poppins-Regular'
+}
+body{
+    background-color: var(--color1);
+    padding-top: 119px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 119px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: var(--color1);
+}
+h2{
+    font-family: var(--font1);
+    color: var(--color2);
+    font-size: 80px;
+    text-transform: capitalize;
+}
+h5{
+    font-family: var(--font2);
+    color: var(--color2);
+    font-size: 22px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    margin: 35px 0px 0px 50px;
+}
+.high-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.nav{
+    font-family: var(--font2);
+    color: var(--color2);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.nav:hover{
+    background-color: var(--color3);
+}
+.prime{
+    font-family: 'Poppins-Regular';
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: var(--color3);
+    height: 67px;
+    width: 148px;
+    border-radius: 10px;
+}
+.profile{
+    background-image: url('../images/portrait.jpg');
+    background-position: right;
+    position: relative;
+    height: 953px;
+    max-width: 1700px;
+    width: 100%;
+}
+.area{
+    position: absolute;
+    width: 642px;
+    height: 396px;
+    top: 175px;
+    left: 50px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font2);
+    color: var(--color2);
+    text-transform: capitalize;
+    font-size: 22px;
+    height: 64px;
+    max-width: 199px;
+    width: 100%;
+    background-color: var(--color3);
+}
+.polygon{
+    margin-left: 85px;
+}
+.professional{
+    margin: 18px 0px 67px 0px;
+}
+.cv{
+    font-family: var(--font3);
+    font-size: 22px;
+    color: var(--color2);
+    height: 83px;
+    text-transform: capitalize;
+    background-color: var(--color1);
+    max-width: 241px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: var(--color2);
+    margin-right: 20px;
+    transition: all 0.5s linear;
+
+}
+.cv:hover{
+    background-color: var(--color3);
+}
