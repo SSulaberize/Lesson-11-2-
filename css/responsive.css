@@ -1,0 +1,131 @@
+@media (max-width: 1285.6px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .grid2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .dashed-box{
+        width: 49%;
+        margin: 6px;
+    }
+    .trio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .triple{
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+    .block{
+        align-items: center;
+    }
+    .laptop{
+        background-position: center;
+    }
+    .mb{
+        text-align: center;
+    }
+}
+@media (max-width: 1270px){
+    .prime{
+        display: none;
+    }
+}
+@media (max-width: 1224px){
+    .right-block{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 980px){
+    .header{
+        margin-left: 5px;
+    }
+    .grid2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 900px){
+    .high-nav{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+        margin-right: 20px;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .profile{
+        background-position: center;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 715px){
+    .area{
+        left: 5px
+    }
+}
+@media (max-width: 600px){
+    .orange-bar{
+        flex-direction: column;
+        height: 767px;
+        width: 83px;
+    }
+    .orange{
+        flex-direction: column;
+    }
+    .view-all-1{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 542px){
+    .text1{
+        top: 65%;
+    }
+}
+@media (max-width: 523px){
+    .cv-1{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 450px){
+    .low{
+        display: none;
+    }
+    .burger-bar-low{
+        display: block;
+    }
+}
+@media (max-width: 370px){
+    .text1{
+       font-size: 20px;
+       top: 60%;
+    }
+    .text3{
+        font-size: 20px;
+    }
+    .number{
+        font-size: 30px;
+    }
+    .number-1{
+        font-size: 30px;
+    }
+    .dashed-box{
+        height: 200px;
+    }
+}
+@media (max-width: 300px){
+    .buttons{
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .cv-2{
+        margin-top: 20px;
+    }
+}
